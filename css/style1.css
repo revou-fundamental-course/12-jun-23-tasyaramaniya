@@ -1,8 +1,59 @@
+/* MARK: DEFAULT  */
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 header{
+<<<<<<< Updated upstream
     background-color: #4942E4;
     color: azure;
+=======
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #C2DEDC;
+    color: #116A7B;
+>>>>>>> Stashed changes
     text-align: center;
     margin-left: 100px;
     margin-right: 100px;
     border-radius: 10px;
 }
+
+label{
+    margin-bottom: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #116A7B;
+}
+
+button{
+    background-color: #CDC2AE;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* MARK: ID */
+#inputField{
+    outline: none;
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 10px;
+    border: solid #CDC2AE;
+}
+
+#inputField:focus{
+    border: solid #116A7B;
+}
+
+/* MARK: Class */
+.InputSection{
+    display: flex;
+    flex-direction: column;
+}
+
+.InputButtonSection{
+    /* display: flex; */
+    flex-direction: row;
+    align-self: center;
+}
+
