@@ -4,14 +4,11 @@ body{
 }
 
 header{
-<<<<<<< Updated upstream
     background-color: #4942E4;
     color: azure;
-=======
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #C2DEDC;
     color: #116A7B;
->>>>>>> Stashed changes
     text-align: center;
     margin-left: 100px;
     margin-right: 100px;
