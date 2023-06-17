@@ -23,14 +23,26 @@ label{
 }
 
 button{
-    background-color: #CDC2AE;
+    background-color: #ECE5C7;
+    color: #116A7B;
     padding: 10px 20px;
     border-radius: 10px;
     cursor: pointer;
+    border: none;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: #CDC2AE;
+}
+
+button:active{
+    transform: translateY(1px);
+    background-color: #ccbea3;
 }
 
 /* MARK: ID */
-#inputField{
+#inputField{ 
     outline: none;
     font-size: 18px;
     border-radius: 8px;
